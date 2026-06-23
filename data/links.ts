@@ -46,6 +46,11 @@ export const links: LinkItem[] = [
     url: "https://fabioramos-02.github.io/DS-MS-Design-System/",
     category: "Documentação",
   },
+  {
+    title: "Apresentação Serviços Repetidos",
+    url: "https://cruzamento-carta.vercel.app/apresentacao/",
+    category: "Documentação",
+  },
 
   // --- Projetos pessoais ---
   {

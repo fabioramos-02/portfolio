@@ -2,7 +2,7 @@
 
 Página estilo "link na bio" (Next.js + Tailwind), publicada na Vercel.
 
-**🔗 No ar:** https://portfolio-ivory-rho-60.vercel.app
+**🔗 No ar:** https://portifolio-fabioramos.vercel.app
 
 Deploy contínuo: cada `git push` na branch `master` republica automaticamente
 (repositório conectado ao projeto na Vercel).
