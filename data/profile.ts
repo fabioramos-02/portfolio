@@ -4,7 +4,7 @@
 export const profile = {
   name: "Fabio Ramos",
   role: "Engenheiro de Software",
-  tagline: "22 anos · Campo Grande — MS", // linha curta abaixo do cargo
+  tagline: "22 anos", // linha curta abaixo do cargo (cidade já aparece no rodapé)
   bio: "Engenheiro de Software · 22 anos · Campo Grande — MS", // usado no <meta description>
   photo: "/fabao.webp",
 };
