@@ -17,10 +17,10 @@ export function LinkRow({ item }: { item: LinkItem }) {
       className="group flex items-center justify-between gap-3 rounded-xl border border-border bg-surface px-4 py-3.5 transition-colors hover:border-accent hover:bg-surface-hover"
     >
       <span className="min-w-0">
-        <span className="block truncate text-sm font-medium text-text">
+        <span className="block truncate text-base font-semibold text-text">
           {item.title}
         </span>
-        <span className="block truncate font-mono text-xs text-muted">
+        <span className="block truncate text-sm text-muted">
           {hostOf(item.url)}
         </span>
       </span>

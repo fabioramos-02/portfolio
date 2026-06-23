@@ -15,8 +15,10 @@ export function Hero() {
         />
       </div>
 
-      <h1 className="mt-5 text-2xl font-bold tracking-tight">{profile.name}</h1>
-      <p className="mt-1 font-mono text-sm text-accent">{profile.role}</p>
+      <h1 className="mt-5 font-display text-[2rem] font-bold leading-10">
+        {profile.name}
+      </h1>
+      <p className="mt-1 text-base font-semibold text-accent">{profile.role}</p>
       <p className="mt-1 text-sm text-muted">{profile.tagline}</p>
     </header>
   );

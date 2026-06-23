@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { Open_Sans, Roboto } from "next/font/google";
 import "./globals.css";
 import { profile } from "@/data/profile";
 
-const inter = Inter({
-  variable: "--font-inter",
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
 });
 
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains",
+const roboto = Roboto({
+  variable: "--font-roboto",
+  weight: ["400", "600"],
   subsets: ["latin"],
 });
 
@@ -24,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${jetbrainsMono.variable}`}>
+    <html lang="pt-BR" className={`${openSans.variable} ${roboto.variable}`}>
       <body className="min-h-screen">{children}</body>
     </html>
   );

@@ -17,8 +17,10 @@ export function Accordion({ category }: { category: Category }) {
         className="flex w-full items-center justify-between gap-3 px-4 py-3.5 text-left transition-colors hover:bg-surface-hover"
       >
         <span className="flex items-center gap-3">
-          <span className="font-mono text-xs text-accent">[{count}]</span>
-          <span className="text-sm font-semibold text-text">{category.name}</span>
+          <span className="text-sm font-semibold text-accent">[{count}]</span>
+          <span className="font-display text-xl font-semibold leading-7 text-text">
+            {category.name}
+          </span>
         </span>
         <svg
           viewBox="0 0 24 24"

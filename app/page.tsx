@@ -23,7 +23,7 @@ export default function Home() {
         ))}
       </section>
 
-      <footer className="mt-auto pt-10 text-center font-mono text-xs text-muted">
+      <footer className="mt-auto pt-10 text-center text-sm text-muted">
         © {new Date().getFullYear()} · Campo Grande — MS
       </footer>
     </main>
