@@ -1,6 +1,11 @@
-# Beeplink — página de links do Fabio Ramos
+# Portfolio — página de links do Fabio Ramos
 
-Página estilo "link na bio" (Next.js + Tailwind), pronta para a Vercel.
+Página estilo "link na bio" (Next.js + Tailwind), publicada na Vercel.
+
+**🔗 No ar:** https://portfolio-ivory-rho-60.vercel.app
+
+Deploy contínuo: cada `git push` na branch `master` republica automaticamente
+(repositório conectado ao projeto na Vercel).
 
 ## Rodar local
 
@@ -31,21 +36,15 @@ Outros arquivos de conteúdo:
 
 ## Trocar a foto
 
-Hoje usa um placeholder com as iniciais (`public/profile.svg`).
-Para usar a foto real:
-
-1. Salve sua imagem em `public/profile.jpg`.
-2. Em `data/profile.ts`, troque `photo: "/profile.svg"` por `photo: "/profile.jpg"`.
+A foto fica em `public/` e o caminho em `data/profile.ts` (`photo`).
+Para usar outra imagem: substitua o arquivo em `public/` e ajuste o `photo`.
 
 ## Deploy na Vercel
 
-Opção recomendada (sem instalar nada): suba o projeto para o GitHub e clique
-**Add New → Project** em https://vercel.com — ele detecta Next.js sozinho.
+Já publicado e conectado ao GitHub — basta `git push` para republicar.
 
-Via CLI:
+Deploy manual (opcional):
 
 ```bash
-npm i -g vercel
-vercel          # cria preview
 vercel --prod   # publica em produção
 ```

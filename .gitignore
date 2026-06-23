@@ -43,3 +43,5 @@ next-env.d.ts
 # artefatos locais
 *.png
 .playwright-mcp/
+
+.vercel
