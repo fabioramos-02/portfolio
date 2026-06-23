@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Beeplink — página de links do Fabio Ramos
 
-## Getting Started
+Página estilo "link na bio" (Next.js + Tailwind), pronta para a Vercel.
 
-First, run the development server:
+## Rodar local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# abre http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como gerenciar (só 1 arquivo)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Edite **`data/links.ts`**. Cada link é uma linha:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```ts
+{ title: "Texto do botão", url: "https://..." }              // botão direto no topo
+{ title: "Texto", url: "https://...", category: "BI" }       // entra no acordeão "BI"
+```
 
-## Learn More
+Regras:
+- **Sem `category`** → vira botão direto no topo.
+- **Com `category`** → agrupa num acordeão com esse nome.
+- **Categoria nova** aparece sozinha — não precisa cadastrar em outro lugar.
+- A ordem dos acordeões segue a 1ª vez que a categoria aparece no arquivo.
 
-To learn more about Next.js, take a look at the following resources:
+Outros arquivos de conteúdo:
+- `data/profile.ts` — nome, cargo, localização, caminho da foto.
+- `data/socials.ts` — ícones de redes sociais (ícones disponíveis em `components/icons.tsx`).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Trocar a foto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Hoje usa um placeholder com as iniciais (`public/profile.svg`).
+Para usar a foto real:
 
-## Deploy on Vercel
+1. Salve sua imagem em `public/profile.jpg`.
+2. Em `data/profile.ts`, troque `photo: "/profile.svg"` por `photo: "/profile.jpg"`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy na Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Opção recomendada (sem instalar nada): suba o projeto para o GitHub e clique
+**Add New → Project** em https://vercel.com — ele detecta Next.js sozinho.
+
+Via CLI:
+
+```bash
+npm i -g vercel
+vercel          # cria preview
+vercel --prod   # publica em produção
+```

@@ -1,0 +1,72 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - img "Fabio Ramos" [ref=e5]
+      - heading "Fabio Ramos" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Engenheiro de Software
+      - paragraph [ref=e8]: Campo Grande — MS
+    - navigation [ref=e9]:
+      - link "Instagram" [ref=e10] [cursor=pointer]:
+        - /url: https://instagram.com/fabioramos_02
+        - img [ref=e11]
+      - link "LinkedIn" [ref=e13] [cursor=pointer]:
+        - /url: https://linkedin.com/in/fabio-ramos-7b8608204
+        - img [ref=e14]
+      - link "YouTube" [ref=e16] [cursor=pointer]:
+        - /url: https://www.youtube.com/@fabioramos9529
+        - img [ref=e17]
+      - link "GitHub" [ref=e19] [cursor=pointer]:
+        - /url: https://github.com/fabioramos-02
+        - img [ref=e20]
+      - link "E-mail" [ref=e22] [cursor=pointer]:
+        - /url: mailto:fabiowilliam466@gmail.com
+        - img [ref=e23]
+      - link "E-mail institucional" [ref=e26] [cursor=pointer]:
+        - /url: mailto:framos@segov.ms.gov.br
+        - img [ref=e27]
+    - generic [ref=e30]:
+      - link "Censo dos Serviços Digitais mapeamento-inicial-servicos-digitai.vercel.app" [ref=e31] [cursor=pointer]:
+        - /url: https://mapeamento-inicial-servicos-digitai.vercel.app/
+        - generic [ref=e32]:
+          - generic [ref=e33]: Censo dos Serviços Digitais
+          - generic [ref=e34]: mapeamento-inicial-servicos-digitai.vercel.app
+        - img [ref=e35]
+      - generic [ref=e37]:
+        - button "[03] BI" [expanded] [active] [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: "[03]"
+            - generic [ref=e41]: BI
+          - img [ref=e42]
+        - generic [ref=e69]:
+          - link "Estudo de cartas cruzamento-carta.vercel.app" [ref=e70] [cursor=pointer]:
+            - /url: https://cruzamento-carta.vercel.app/
+            - generic [ref=e71]:
+              - generic [ref=e72]: Estudo de cartas
+              - generic [ref=e73]: cruzamento-carta.vercel.app
+            - img [ref=e74]
+          - link "Estudo de perfil bench-perfil.streamlit.app" [ref=e76] [cursor=pointer]:
+            - /url: https://bench-perfil.streamlit.app/
+            - generic [ref=e77]:
+              - generic [ref=e78]: Estudo de perfil
+              - generic [ref=e79]: bench-perfil.streamlit.app
+            - img [ref=e80]
+          - link "Estudo de categorias setdig-dados.streamlit.app" [ref=e82] [cursor=pointer]:
+            - /url: https://setdig-dados.streamlit.app/
+            - generic [ref=e83]:
+              - generic [ref=e84]: Estudo de categorias
+              - generic [ref=e85]: setdig-dados.streamlit.app
+            - img [ref=e86]
+      - button "[01] Documentação" [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: "[01]"
+          - generic [ref=e48]: Documentação
+        - img [ref=e49]
+      - button "[02] Projetos pessoais" [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: "[02]"
+          - generic [ref=e55]: Projetos pessoais
+        - img [ref=e56]
+    - generic [ref=e58]: © 2026 · Campo Grande — MS
+  - button "Open Next.js Dev Tools" [ref=e64] [cursor=pointer]:
+    - img [ref=e65]
+  - alert [ref=e68]
