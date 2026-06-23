@@ -11,7 +11,7 @@ export function Hero() {
           fill
           priority
           sizes="112px"
-          className="rounded-full border-2 border-bg object-cover object-[50%_12%]"
+          className="rounded-full border-2 border-bg object-cover object-[50%_30%]"
         />
       </div>
 
