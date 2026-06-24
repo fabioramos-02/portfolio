@@ -17,14 +17,21 @@
 export type LinkItem = { title: string; url: string; category?: string };
 
 export const links: LinkItem[] = [
-  // --- Links diretos (sem categoria) — topo ---
+  // --- SETDIG ---
   {
     title: "Gestão de demandas TFS",
     url: "https://fabioramos-02.github.io/setdig-tfs-backlog/",
+    category: "SETDIG",
   },
   {
     title: "Relatório de demandas TFS",
     url: "https://fabioramos-02.github.io/setdig-tfs-backlog/relatorios.html",
+    category: "SETDIG",
+  },
+  {
+    title: "Drive SETDIG",
+    url: "https://drive.google.com/drive/u/0/folders/1FHHnpTyxhsNTkfFrQe86_Y3gw3N1qS9-",
+    category: "SETDIG",
   },
 
   // --- BI ---
