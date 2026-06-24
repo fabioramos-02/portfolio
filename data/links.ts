@@ -63,4 +63,14 @@ export const links: LinkItem[] = [
     url: "https://huggingface.co/spaces/fabioramos02/doc2md",
     category: "Projetos pessoais",
   },
+  {
+    title: "Notifica Saúde",
+    url: "https://nes-server.equipe4.front.facom.ufms.br/",
+    category: "Projetos pessoais",
+  },
+  {
+    title: "B3 Things",
+    url: "https://b3-things.lovable.app/",
+    category: "Projetos pessoais",
+  },
 ];
