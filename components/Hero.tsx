@@ -4,14 +4,14 @@ import { profile } from "@/data/profile";
 export function Hero() {
   return (
     <header className="flex flex-col items-center text-center">
-      <div className="avatar-ring relative h-28 w-28 rounded-full">
+      <div className="avatar-ring relative h-28 w-28 overflow-hidden rounded-full">
         <Image
           src={profile.photo}
           alt={profile.name}
           fill
           priority
           sizes="112px"
-          className="rounded-full border-2 border-bg object-cover object-[50%_30%]"
+          className="rounded-full border-2 border-bg object-cover scale-150 object-[50%_20%]"
         />
       </div>
 
