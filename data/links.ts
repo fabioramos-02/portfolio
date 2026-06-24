@@ -17,13 +17,22 @@
 export type LinkItem = { title: string; url: string; category?: string };
 
 export const links: LinkItem[] = [
-  // --- Links diretos (sem categoria) ---
+  // --- Links diretos (sem categoria) — topo ---
   {
-    title: "Censo dos Serviços Digitais",
-    url: "https://mapeamento-inicial-servicos-digitai.vercel.app/",
+    title: "Gestão de demandas TFS",
+    url: "https://fabioramos-02.github.io/setdig-tfs-backlog/",
+  },
+  {
+    title: "Relatório de demandas TFS",
+    url: "https://fabioramos-02.github.io/setdig-tfs-backlog/relatorios.html",
   },
 
   // --- BI ---
+  {
+    title: "Censo dos Serviços Digitais",
+    url: "https://mapeamento-inicial-servicos-digitai.vercel.app/",
+    category: "BI",
+  },
   {
     title: "Estudo de cartas",
     url: "https://cruzamento-carta.vercel.app/",
