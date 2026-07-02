@@ -33,6 +33,11 @@ export const links: LinkItem[] = [
     url: "https://drive.google.com/drive/u/0/folders/1FHHnpTyxhsNTkfFrQe86_Y3gw3N1qS9-",
     category: "SETDIG",
   },
+  {
+    title: "Assinatura de E-mail",
+    url: "https://gerador-assinaturas-six.vercel.app/",
+    category: "SETDIG",
+  },
 
   // --- BI ---
   {
